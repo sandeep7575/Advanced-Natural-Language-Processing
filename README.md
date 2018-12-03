@@ -5,6 +5,7 @@
 * The data is created and extracted by using the data_creation_extraction.ipnb file.
 * The model is built in the topic_modelling.ipnb file.
 
+
 * The generated data and the different file used to generate the data is present in a zipped folder.
 * Different files and folder descriptions are as follow:
 
@@ -17,7 +18,7 @@
 * topic_modelling.ipnb : Build LDA model to classify the documents to different topics.
 
 * Future work: More number of wrappers can be used to check if the coherence of the model can be improved. 
-* Hierarchical dirichlet process can alos be used to checl if the coherence of the mdoel can be improved.
+* Hierarchical dirichlet process can also be used to check if the coherence of the model can be improved.
 
 * Steps to reproduce the process:
 * Unzip the zipped folder to any location on the local system.
@@ -26,3 +27,4 @@
 * The above python file creates data files in the folder txt_files once it successfully finishes up the initial run.
 * Run the jupyter notebook topic_modelling.ipnb file.
 * It builds the LDA model and all the documents will be categorised accordingly.
+* Note: If the interactive_plot(In the file topic_modelling.ipnb, at the end) doesn't show up on github, simply download the ipnb notebook and run on your local machine.
